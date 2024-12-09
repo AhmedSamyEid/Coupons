@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href= "assets/style/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coupons</title>
+    <link rel="stylesheet" href="assets/style/main.css" />
+  </head>
+  <body>
+    <!-- <div class="picture-inthe-first-face">
+  <img src="assets/image/27154 1.webp">
+</div> -->
+<div class="container">
+  <header>
+    <div class="logo-arabic">
+      <img src="assets/image/Logo Arabic.webp" alt="شعار الموقع" />
+    </div>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">متجر الكوبونات والعروض</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="subscribe-to-receive-all-that-is-new">
+      <a href="#">اشترك ليصلك كل جديد</a>
+    </div>
+  </header>
+  <section class="opponent">
+    <input type="text" name="username" placeholder="أبحث عن أي خصم">
+    <section class="category-selection">
+      <p id="helper-text"></p>
+      <select id="category" name="category">
+        <option value="" disabled selected>كل الفئات</option>
+        <option value="clothes">الملابس</option>
+        <option value="cooking_tools">أدوات الطبخ</option>
+        <option value="sports">الرياضة</option>
+        <option value="Cosmetics">أدوات التجميل</option>
+        <option value="Furniture">الأثاث</option>
+        <option value="Office Tools">أدوات المكتب</option>
+      </select>
+    </section>
+    
+    <input type="submit" value="بحث">
 
-  <script src="assets/script/main.js"></script>
-</body>
+    <div class="options">
+      <input type="checkbox" id="discount_all" name="discount" checked>
+      <label for="discount_all">الكل</label>
+      
+      <input type="checkbox" id="discount_free" name="discount" checked>
+      <label for="discount_free">مجاني</label>
+      
+      <input type="checkbox" id="discount_brands" name="discount" checked>
+      <label for="discount_brands">الشهر البراندات</label>
+      
+      <input type="checkbox" id="discount_big" name="discount" checked>
+      <label for="discount_big">الخصومات الكبيرة</label>
+    </div>
+  </section>
+
+</div>
+
+
+    <script src="assets/script/main.js"></script>
+  </body>
 </html>
