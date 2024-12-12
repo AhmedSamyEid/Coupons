@@ -8,4 +8,3 @@ document.getElementById("category").addEventListener("change", function () {
     }, 300); 
   }
 });
-document.querySelector('.container').style.backgroundImage = 'none';

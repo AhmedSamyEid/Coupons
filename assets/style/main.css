@@ -27,15 +27,7 @@
   
 }
 @media (max-width: 768px) {
-  .b {
-    width: 441px;
-    height: 239px;
-    background-image: url('/assets/image/27154\ 1.webp');
-    object-fit: contain;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+
 }
 .container {
   display: flex;
