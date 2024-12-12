@@ -7,6 +7,35 @@
   --font-Bold: "IBM Plex Sans", sans-serif;
   --Curious-Blue:#169BD7;
   --white:#FFFFFF;
+  --Black: #000000;
+  --Oslo-Grey: #8A8A8A;
+  --font-El-Messiri:  "El Messiri", sans-serif;
+}
+@media (min-width : 768px) {
+  
+}
+@media (max-width : 992px) {
+  
+}
+@media (max-width : 1200px) {
+
+  .logo-arabic 
+  ,.navbar
+  ,.subscribe-to-receive-all-that-is-new{
+    display: none;
+  }
+  
+}
+@media (max-width: 768px) {
+  .b {
+    width: 441px;
+    height: 239px;
+    background-image: url('/assets/image/27154\ 1.webp');
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 .container {
   display: flex;
@@ -189,4 +218,18 @@ nav a {
   .opponent select {
     max-width: 100%;
   }
+}
+.products {
+  text-align: center;
+}
+.today-s-offers h3 {
+  font-family: var(--font-Bold);
+  font-size: 40px;
+  color: var(--Black);
+  line-height: 70px;
+}
+.today-s-offers p {
+  font-size: 20px;
+  font-family: var(--font-El-Messiri);
+  color: var(--Oslo-Grey);
 }
