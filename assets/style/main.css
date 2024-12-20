@@ -205,8 +205,11 @@ nav a {
   .opponent select {
     max-width: 100%;
   }
-  .offer-badge {
+  .offer-badge , .offer-type h4 ,.icon-or-description img {
     display: none;
+  }
+  .products {
+    overflow: hidden;
   }
 }
 .today-s-offers {
@@ -223,8 +226,7 @@ nav a {
   font-size: 20px;
   font-weight: medium;
   color: var(--Oslo-Grey);
-}
-.offers {
+}.offers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -239,9 +241,8 @@ nav a {
   justify-content: center;
   flex-direction: column;
   width: 60%;
-  margin: 25px auto;
+  margin: 25px 0 0 20%;
 }
-
 .offer-container {
   display: flex;
   flex-direction: column;
@@ -259,7 +260,6 @@ nav a {
   height: auto;
   border-radius: 8px;
 }
-
 .offer-info {
   display: flex;
   flex-direction: column;
@@ -267,13 +267,11 @@ nav a {
   flex: 1;
   flex-wrap: wrap;
 }
-
 .offer-header {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .offer-badge {
   position: relative;
   right: 62.5%;
@@ -281,7 +279,6 @@ nav a {
   width: 58px;
   height: 72.68px;
 }
-
 .offer-type h4 {
   position: relative;
   right: 190px;
@@ -290,7 +287,6 @@ nav a {
   color: var(--white);
   font-size: 11px;
 }
-
 .icon-or-description img {
   width: 31px;
   height: 31px;
@@ -298,7 +294,6 @@ nav a {
   left: 60px;
   bottom: 5px;
 }
-
 .interaction-buttons {
   display: flex;
   align-items: center;
@@ -307,7 +302,6 @@ nav a {
   bottom: 20px;
   right: 15%;
 }
-
 .discount-button,
 .active-button {
   width: 100px;
@@ -321,17 +315,14 @@ nav a {
   border: none;
   cursor: pointer;
 }
-
 .discount-button {
   background-color: var(--Black-Cow);
   color: #fff;
 }
-
 .active-button {
   background-color: var(--Curious-Blue);
   color: #fff;
 }
-
 .check-mark {
   position: relative;
   left: 95px;
@@ -347,7 +338,6 @@ nav a {
   font-size: 20px;
   color: var(--Black);
 }
-
 .product-description p {
   font-family: var(--font-El-Messiri);
   position: relative;
@@ -358,7 +348,6 @@ nav a {
   font-size: 14px;
   color: var(--Black-Cow);
 }
-
 .view-offer-button {
   width: 183px;
   padding: 10px;
@@ -374,17 +363,14 @@ nav a {
   cursor: pointer;
   transition: all 0.4s;
 }
-
 .view-offer-button:hover {
   background-color: #0056b3;
 }
-
 .visitor-info {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .visitor-info img {
   padding: 10px;
 }
