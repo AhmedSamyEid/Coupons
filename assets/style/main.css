@@ -224,6 +224,9 @@ nav a {
     border: solid 1px #6f6d6ddd;
     width: 115.2%;
   }
+  /* .offer-section ,.offer-container , .offer-image , .offer-image img {
+    width: 10%;
+  } */
 }
 .products {
   margin-top: 250px;
@@ -262,8 +265,8 @@ nav a {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
-  margin: 25px 0 0 2%;
+  width: 100%;
+  margin: 25px 0 0 -15%;
 }
 .offer-container {
   display: flex;
@@ -295,7 +298,7 @@ nav a {
 }
 .offer-badge {
   position: relative;
-  right: 67.4%;
+  right: 62.4%;
   bottom: 390px;
   width: 58px;
   height: 72.68px;
@@ -472,7 +475,7 @@ nav a {
 .popular h3 {
   color: #d12323d2;
   font-size: 22px;
-  padding: 20px 140px 0 0;
+  padding: 20px 90px 0 0;
 }
 
 .popular h4 {
@@ -483,7 +486,7 @@ nav a {
 }
 
 .check-mark {
-  margin: 10px 0 0 5%;
+  margin: 10px 0 0 0;
   width: 10px;
   height: 10px;
 }
@@ -524,3 +527,105 @@ nav a {
     flex: 1 1 calc(100% - 20px); 
   }
 }
+/* .offers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.offer-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 30%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.offer-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.offer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer-badge {
+  width: 50px;
+  height: 50px;
+}
+
+.offer-type h4 {
+  font-size: 14px;
+  color: var(--white);
+}
+
+.icon-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.interaction-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.discount-button,
+.active-button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.discount-button {
+  background-color: var(--Black-Cow);
+  color: #fff;
+}
+
+.active-button {
+  background-color: var(--Curious-Blue);
+  color: #fff;
+}
+
+.product-description h3 {
+  font-size: 18px;
+  color: var(--Black);
+}
+
+.product-description p {
+  font-size: 14px;
+  color: var(--Black-Cow);
+}
+
+.view-offer-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.view-offer-button:hover {
+  background-color: #0056b3;
+}
+
+.visitor-info {
+  display: flex;
+  gap: 10px;
+} */
