@@ -9,7 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Coupons</title>
     <link rel="stylesheet" href="assets/style/main.css" />
   </head>
@@ -32,380 +38,649 @@
           <a href="#">اشترك ليصلك كل جديد</a>
         </div>
       </header>
-        <section class="opponent">
-            <input type="text" name="username" placeholder="أبحث عن أي خصم" />
-              <section class="category-selection">
-                  <p id="helper-text"></p>
-                      <select id="category" name="category">
-                    <option value="" disabled selected>كل الفئات</option>
-                <option value="clothes">الملابس</option>
+      <section class="opponent">
+        <input type="text" name="username" placeholder="أبحث عن أي خصم" />
+        <section class="category-selection">
+          <p id="helper-text"></p>
+          <select id="category" name="category">
+            <option value="" disabled selected>كل الفئات</option>
+            <option value="clothes">الملابس</option>
             <option value="cooking_tools">أدوات الطبخ</option>
-          <option value="sports">الرياضة</option>
-        <option value="Cosmetics">أدوات التجميل</option>
-      <option value="Furniture">الأثاث</option>
-    <option value="Office Tools">أدوات المكتب</option>
-      </select>
+            <option value="sports">الرياضة</option>
+            <option value="Cosmetics">أدوات التجميل</option>
+            <option value="Furniture">الأثاث</option>
+            <option value="Office Tools">أدوات المكتب</option>
+          </select>
         </section>
-          <input type="submit" value="بحث" />
-              <div class="options">
-                  <input type="checkbox" id="discount_all" name="discount" checked />
-                      <label for="discount_all">الكل</label>
-                          <input type="checkbox" id="discount_free" name="discount" checked />
-                              <label for="discount_free">مجاني</label>
-                        <input type="checkbox" id="discount_brands" name="discount" checked />
-                    <label for="discount_brands">الشهر البراندات</label>
-                <input type="checkbox" id="discount_big" name="discount" checked />
+        <input type="submit" value="بحث" />
+        <div class="options">
+          <input type="checkbox" id="discount_all" name="discount" checked />
+          <label for="discount_all">الكل</label>
+          <input type="checkbox" id="discount_free" name="discount" checked />
+          <label for="discount_free">مجاني</label>
+          <input type="checkbox" id="discount_brands" name="discount" checked />
+          <label for="discount_brands">الشهر البراندات</label>
+          <input type="checkbox" id="discount_big" name="discount" checked />
           <label for="discount_big">الخصومات الكبيرة</label>
         </div>
       </section>
     </div>
-      <section class="products">
-        <div class="today-s-offers">
-        <h3>عروض اليوم</h3><br>
+    <section class="products">
+      <div class="today-s-offers">
+        <h3>عروض اليوم</h3>
+        <br />
         <p>تصفح أحدث العروض اليومية في مورا كوبون</p>
+      </div>
+      <section class="offers">
+        <section class="offer-section">
+          <div class="offer-container">
+            <img
+              class="offer-image"
+              src="assets/image/image 17.webp"
+              alt="Product Image"
+            />
+            <div class="offer-info">
+              <div class="offer-header">
+                <img
+                  class="offer-badge"
+                  src="assets/icons/Rectangle 33.webp"
+                  alt="Offer Badge"
+                />
+                <div class="offer-type">
+                  <h4>يومي</h4>
+                </div>
+                <div class="icon-or-description">
+                  <img
+                    src="assets/icons/image 22.webp"
+                    alt="Icon or description of the image here"
+                  />
+                </div>
+              </div>
+
+              <div class="interaction-buttons">
+                <button class="discount-button">خصم</button>
+                <button class="active-button">فعال</button>
+                <img
+                  class="check-mark"
+                  src="assets/icons/Check mark.webp"
+                  alt="Check Mark"
+                />
+              </div>
+
+              <div class="product-description">
+                <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
+              </div>
+
+              <div class="view-offer">
+                <button class="view-offer-button">شاهد العرض</button>
+              </div>
+
+              <div class="visitor-info">
+                <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                <img
+                  src="assets/icons/participant.webp"
+                  alt="Participants Icon"
+                />
+                <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
+              </div>
+            </div>
           </div>
-          <section class="offers">
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 17.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-          
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          
-        
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 18.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-          
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          
-      
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 19.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم كوتشي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-
-
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 16.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم حريمي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          </section>
-          <div class="sc-offers">
-          <section class="offers">
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 18.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-          
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          
-        
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 16.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-          
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم حريمي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          
-      
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 17.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-
-
-            <section class="offer-section">
-              <div class="offer-container">
-                <img class="offer-image" src="assets/image/image 18.webp" alt="Product Image" />
-                <div class="offer-info">
-                  <div class="offer-header">
-                    <img class="offer-badge" src="assets/icons/Rectangle 33.webp" alt="Offer Badge" />
-                    <div class="offer-type">
-                      <h4>يومي</h4>
-                    </div>
-                    <div class="icon-or-description">
-                      <img src="assets/icons/image 22.webp" alt="Icon or description of the image here" />
-                    </div>
-                  </div>
-                  <div class="interaction-buttons">
-                    <button class="discount-button">خصم</button>
-                    <button class="active-button">فعال</button>
-                    <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
-                  </div>
-          
-                  <div class="product-description">
-                    <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
-                    <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
-                  </div>
-          
-                  <div class="view-offer">
-                    <button class="view-offer-button">شاهد العرض</button>
-                  </div>
-          
-                  <div class="visitor-info">
-                    <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
-                    <img src="assets/icons/participant.webp" alt="Participants Icon" />
-                    <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
-                  </div>
-                </div>
-              </div>
-            </section>
-          </section>
-        </div>
         </section>
-          <section class="coupons-worth-the-wait">
-            <h2>كوبونات تستحق الإنتظار</h2>
-            <br>
-            <p>اليوم يوفر مورا كوبون خصومات أشهر  البراندات العلالمية   </p>
-            <br>
-            <br>
-            <div class="ico">
-            <img src="assets/icons/amazon.webp">
-            <img src="assets/icons/Frame 8 (1).webp">
-            <img src="assets/icons/Frame 8.webp">
-            <img src="assets/icons/samaung.webp">
-            <img src="assets/icons/styli.webp">
-            <img src="assets/icons/Coupons.webp">
-            </div>
-            <div class="slider-container">
-              <i class="fa-solid fa-chevron-left slider-arrow left-arrow"></i>
-              <div class="big-slide">
-                <img src="assets/image/image 28.webp" alt="Image 2">
-                <img src="assets/image/image 27.webp" alt="Image 1">
-                <img src="assets/image/image 30.webp" alt="Image 3">
-                <img src="assets/image/image 31 (1).webp" alt="Image 4">
-                <img src="assets/image/image 29.webp" alt="Image 5">
-                <img src="assets/image/image 32.webp" alt="Image 6">
+
+        <section class="offer-section">
+          <div class="offer-container">
+            <img
+              class="offer-image"
+              src="assets/image/image 18.webp"
+              alt="Product Image"
+            />
+            <div class="offer-info">
+              <div class="offer-header">
+                <img
+                  class="offer-badge"
+                  src="assets/icons/Rectangle 33.webp"
+                  alt="Offer Badge"
+                />
+                <div class="offer-type">
+                  <h4>يومي</h4>
+                </div>
+                <div class="icon-or-description">
+                  <img
+                    src="assets/icons/image 22.webp"
+                    alt="Icon or description of the image here"
+                  />
+                </div>
               </div>
-              <i class="fa-solid fa-chevron-right slider-arrow right-arrow"></i>
+
+              <div class="interaction-buttons">
+                <button class="discount-button">خصم</button>
+                <button class="active-button">فعال</button>
+                <img
+                  class="check-mark"
+                  src="assets/icons/Check mark.webp"
+                  alt="Check Mark"
+                />
+              </div>
+
+              <div class="product-description">
+                <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
+              </div>
+
+              <div class="view-offer">
+                <button class="view-offer-button">شاهد العرض</button>
+              </div>
+
+              <div class="visitor-info">
+                <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                <img
+                  src="assets/icons/participant.webp"
+                  alt="Participants Icon"
+                />
+                <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
+              </div>
             </div>
-            
+          </div>
+        </section>
+
+        <section class="offer-section">
+          <div class="offer-container">
+            <img
+              class="offer-image"
+              src="assets/image/image 19.webp"
+              alt="Product Image"
+            />
+            <div class="offer-info">
+              <div class="offer-header">
+                <img
+                  class="offer-badge"
+                  src="assets/icons/Rectangle 33.webp"
+                  alt="Offer Badge"
+                />
+                <div class="offer-type">
+                  <h4>يومي</h4>
+                </div>
+                <div class="icon-or-description">
+                  <img
+                    src="assets/icons/image 22.webp"
+                    alt="Icon or description of the image here"
+                  />
+                </div>
+              </div>
+              <div class="interaction-buttons">
+                <button class="discount-button">خصم</button>
+                <button class="active-button">فعال</button>
+                <img
+                  class="check-mark"
+                  src="assets/icons/Check mark.webp"
+                  alt="Check Mark"
+                />
+              </div>
+
+              <div class="product-description">
+                <h3>طقم كوتشي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
+              </div>
+
+              <div class="view-offer">
+                <button class="view-offer-button">شاهد العرض</button>
+              </div>
+
+              <div class="visitor-info">
+                <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                <img
+                  src="assets/icons/participant.webp"
+                  alt="Participants Icon"
+                />
+                <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="offer-section">
+          <div class="offer-container">
+            <img
+              class="offer-image"
+              src="assets/image/image 16.webp"
+              alt="Product Image"
+            />
+            <div class="offer-info">
+              <div class="offer-header">
+                <img
+                  class="offer-badge"
+                  src="assets/icons/Rectangle 33.webp"
+                  alt="Offer Badge"
+                />
+                <div class="offer-type">
+                  <h4>يومي</h4>
+                </div>
+                <div class="icon-or-description">
+                  <img
+                    src="assets/icons/image 22.webp"
+                    alt="Icon or description of the image here"
+                  />
+                </div>
+              </div>
+              <div class="interaction-buttons">
+                <button class="discount-button">خصم</button>
+                <button class="active-button">فعال</button>
+                <img
+                  class="check-mark"
+                  src="assets/icons/Check mark.webp"
+                  alt="Check Mark"
+                />
+              </div>
+
+              <div class="product-description">
+                <h3>طقم حريمي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                <p>شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية</p>
+              </div>
+
+              <div class="view-offer">
+                <button class="view-offer-button">شاهد العرض</button>
+              </div>
+
+              <div class="visitor-info">
+                <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                <img
+                  src="assets/icons/participant.webp"
+                  alt="Participants Icon"
+                />
+                <img src="assets/icons/5 hours ago.webp" alt="Time Info Icon" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div class="sc-offers">
+        <section class="offers">
+          <section class="offer-section">
+            <div class="offer-container">
+              <img
+                class="offer-image"
+                src="assets/image/image 18.webp"
+                alt="Product Image"
+              />
+              <div class="offer-info">
+                <div class="offer-header">
+                  <img
+                    class="offer-badge"
+                    src="assets/icons/Rectangle 33.webp"
+                    alt="Offer Badge"
+                  />
+                  <div class="offer-type">
+                    <h4>يومي</h4>
+                  </div>
+                  <div class="icon-or-description">
+                    <img
+                      src="assets/icons/image 22.webp"
+                      alt="Icon or description of the image here"
+                    />
+                  </div>
+                </div>
+
+                <div class="interaction-buttons">
+                  <button class="discount-button">خصم</button>
+                  <button class="active-button">فعال</button>
+                  <img
+                    class="check-mark"
+                    src="assets/icons/Check mark.webp"
+                    alt="Check Mark"
+                  />
+                </div>
+
+                <div class="product-description">
+                  <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                  <p>
+                    شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية
+                  </p>
+                </div>
+
+                <div class="view-offer">
+                  <button class="view-offer-button">شاهد العرض</button>
+                </div>
+
+                <div class="visitor-info">
+                  <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                  <img
+                    src="assets/icons/participant.webp"
+                    alt="Participants Icon"
+                  />
+                  <img
+                    src="assets/icons/5 hours ago.webp"
+                    alt="Time Info Icon"
+                  />
+                </div>
+              </div>
+            </div>
           </section>
-          
-        
-          
+
+          <section class="offer-section">
+            <div class="offer-container">
+              <img
+                class="offer-image"
+                src="assets/image/image 16.webp"
+                alt="Product Image"
+              />
+              <div class="offer-info">
+                <div class="offer-header">
+                  <img
+                    class="offer-badge"
+                    src="assets/icons/Rectangle 33.webp"
+                    alt="Offer Badge"
+                  />
+                  <div class="offer-type">
+                    <h4>يومي</h4>
+                  </div>
+                  <div class="icon-or-description">
+                    <img
+                      src="assets/icons/image 22.webp"
+                      alt="Icon or description of the image here"
+                    />
+                  </div>
+                </div>
+
+                <div class="interaction-buttons">
+                  <button class="discount-button">خصم</button>
+                  <button class="active-button">فعال</button>
+                  <img
+                    class="check-mark"
+                    src="assets/icons/Check mark.webp"
+                    alt="Check Mark"
+                  />
+                </div>
+
+                <div class="product-description">
+                  <h3>طقم حريمي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                  <p>
+                    شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية
+                  </p>
+                </div>
+
+                <div class="view-offer">
+                  <button class="view-offer-button">شاهد العرض</button>
+                </div>
+
+                <div class="visitor-info">
+                  <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                  <img
+                    src="assets/icons/participant.webp"
+                    alt="Participants Icon"
+                  />
+                  <img
+                    src="assets/icons/5 hours ago.webp"
+                    alt="Time Info Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="offer-section">
+            <div class="offer-container">
+              <img
+                class="offer-image"
+                src="assets/image/image 17.webp"
+                alt="Product Image"
+              />
+              <div class="offer-info">
+                <div class="offer-header">
+                  <img
+                    class="offer-badge"
+                    src="assets/icons/Rectangle 33.webp"
+                    alt="Offer Badge"
+                  />
+                  <div class="offer-type">
+                    <h4>يومي</h4>
+                  </div>
+                  <div class="icon-or-description">
+                    <img
+                      src="assets/icons/image 22.webp"
+                      alt="Icon or description of the image here"
+                    />
+                  </div>
+                </div>
+                <div class="interaction-buttons">
+                  <button class="discount-button">خصم</button>
+                  <button class="active-button">فعال</button>
+                  <img
+                    class="check-mark"
+                    src="assets/icons/Check mark.webp"
+                    alt="Check Mark"
+                  />
+                </div>
+
+                <div class="product-description">
+                  <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                  <p>
+                    شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية
+                  </p>
+                </div>
+
+                <div class="view-offer">
+                  <button class="view-offer-button">شاهد العرض</button>
+                </div>
+
+                <div class="visitor-info">
+                  <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                  <img
+                    src="assets/icons/participant.webp"
+                    alt="Participants Icon"
+                  />
+                  <img
+                    src="assets/icons/5 hours ago.webp"
+                    alt="Time Info Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="offer-section">
+            <div class="offer-container">
+              <img
+                class="offer-image"
+                src="assets/image/image 18.webp"
+                alt="Product Image"
+              />
+              <div class="offer-info">
+                <div class="offer-header">
+                  <img
+                    class="offer-badge"
+                    src="assets/icons/Rectangle 33.webp"
+                    alt="Offer Badge"
+                  />
+                  <div class="offer-type">
+                    <h4>يومي</h4>
+                  </div>
+                  <div class="icon-or-description">
+                    <img
+                      src="assets/icons/image 22.webp"
+                      alt="Icon or description of the image here"
+                    />
+                  </div>
+                </div>
+                <div class="interaction-buttons">
+                  <button class="discount-button">خصم</button>
+                  <button class="active-button">فعال</button>
+                  <img
+                    class="check-mark"
+                    src="assets/icons/Check mark.webp"
+                    alt="Check Mark"
+                  />
+                </div>
+
+                <div class="product-description">
+                  <h3>طقم رجالي من 6 ستريت بخصم %50 لزائرين عبر موراكوبون</h3>
+                  <p>
+                    شميز مع بلوفر صوف وبنطلون جنز العرض ساري حتى نفاذ الكمية
+                  </p>
+                </div>
+
+                <div class="view-offer">
+                  <button class="view-offer-button">شاهد العرض</button>
+                </div>
+
+                <div class="visitor-info">
+                  <img src="assets/icons/image 23.webp" alt="Visitor Icon" />
+                  <img
+                    src="assets/icons/participant.webp"
+                    alt="Participants Icon"
+                  />
+                  <img
+                    src="assets/icons/5 hours ago.webp"
+                    alt="Time Info Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </section>
+    <section class="coupons-worth-the-wait">
+      <h2>كوبونات تستحق الإنتظار</h2>
+      <br />
+      <p>اليوم يوفر مورا كوبون خصومات أشهر البراندات العلالمية</p>
+      <br />
+      <br />
+      <div class="ico">
+        <img src="assets/icons/amazon.webp" />
+        <img src="assets/icons/Frame 8 (1).webp" />
+        <img src="assets/icons/Frame 8.webp" />
+        <img src="assets/icons/samaung.webp" />
+        <img src="assets/icons/styli.webp" />
+        <img src="assets/icons/Coupons.webp" />
+      </div>
+      <div class="slider-container">
+        <div class="big-slide">
+          <img src="assets/image/image 28.webp" alt="Image 2" />
+          <img src="assets/image/image 27.webp" alt="Image 1" />
+          <img src="assets/image/image 30.webp" alt="Image 3" />
+          <img src="assets/image/image 31 (1).webp" alt="Image 4" />
+          <img src="assets/image/image 29.webp" alt="Image 5" />
+          <img src="assets/image/image 32.webp" alt="Image 6" />
+        </div>
+      </div>
+    </section>
+    <section class="up-to-50-off">
+      <div class="row">
+        <div class="up-to">
+          <div class="popular">
+            <h3>خصم حتى 50%</h3>
+            <div class="Rectangl">
+              <img src="assets/icons/Rectangle 33.webp" />
+              <h4>رائج</h4>
+            </div>
+          </div>
+          <div class="coupons">
+            <img src="assets/icons/Ellipse 11.png" />
+            <button class="discount-button">كوبونات</button>
+            <button class="active-button">فعال</button>
+            <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
+          </div>
+          <div class="copy-coupon">
+            <h4 class="mu2810">MU2810</h4>
+            <h4>نسخ الكوبون</h4>
+          </div>
+          <div class="amazon-discount-code-is-valid">
+            <p>كود خصم أمزون فعال حتى 50% على<br> جميع المنتجات</p>
+          </div>
+          <div class="activity-statistics">
+            <h4>27325 مستخدم</h4>
+            <h4>مشاركة</h4>
+            <h4>منذ 2 ساعات</h4>
+          </div>
+        </div>
+        <div class="up-to">
+          <div class="popular">
+            <h3>خصم حتى 50%</h3>
+            <div class="Rectangl">
+              <img src="assets/icons/Rectangle 33.webp" />
+              <h4>رائج</h4>
+            </div>
+          </div>
+          <div class="coupons">
+            <img src="assets/icons/Ellipse 11.png" />
+            <button class="discount-button">كوبونات</button>
+            <button class="active-button">فعال</button>
+            <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
+          </div>
+          <div class="copy-coupon">
+            <h4 class="mu2810">MU2810</h4>
+            <h4>نسخ الكوبون</h4>
+          </div>
+          <div class="amazon-discount-code-is-valid">
+            <p>كود خصم أمزون فعال حتى 50% على<br> جميع المنتجات</p>
+          </div>
+          <div class="activity-statistics">
+            <h4>27325 مستخدم</h4>
+            <h4>مشاركة</h4>
+            <h4>منذ 2 ساعات</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="up-to">
+          <div class="popular">
+            <h3>خصم حتى 50%</h3>
+            <div class="Rectangl">
+              <img src="assets/icons/Rectangle 33.webp" />
+              <h4>رائج</h4>
+            </div>
+          </div>
+          <div class="coupons">
+            <img src="assets/icons/Ellipse 11.png" />
+            <button class="discount-button">كوبونات</button>
+            <button class="active-button">فعال</button>
+            <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
+          </div>
+          <div class="copy-coupon">
+            <h4 class="mu2810">MU2810</h4>
+            <h4>نسخ الكوبون</h4>
+          </div>
+          <div class="amazon-discount-code-is-valid">
+            <p>كود خصم أمزون فعال حتى 50% على<br> جميع المنتجات</p>
+          </div>
+          <div class="activity-statistics">
+            <h4>27325 مستخدم</h4>
+            <h4>مشاركة</h4>
+            <h4>منذ 2 ساعات</h4>
+          </div>
+        </div>
+        <div class="up-to">
+          <div class="popular">
+            <h3>خصم حتى 50%</h3>
+            <div class="Rectangl">
+              <img src="assets/icons/Rectangle 33.webp" />
+              <h4>رائج</h4>
+            </div>
+          </div>
+          <div class="coupons">
+            <img src="assets/icons/Ellipse 11.png" />
+            <button class="discount-button">كوبونات</button>
+            <button class="active-button">فعال</button>
+            <img class="check-mark" src="assets/icons/Check mark.webp" alt="Check Mark" />
+          </div>
+          <div class="copy-coupon">
+            <h4 class="mu2810">MU2810</h4>
+            <h4>نسخ الكوبون</h4>
+          </div>
+          <div class="amazon-discount-code-is-valid">
+            <p>كود خصم أمزون فعال حتى 50% على<br> جميع المنتجات</p>
+          </div>
+          <div class="activity-statistics">
+            <h4>27325 مستخدم</h4>
+            <h4>مشاركة</h4>
+            <h4>منذ 2 ساعات</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
     <script src="assets/script/main.js"></script>
   </body>
 </html>

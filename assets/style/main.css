@@ -295,7 +295,7 @@ nav a {
 }
 .offer-badge {
   position: relative;
-  right: 81%;
+  right: 67.4%;
   bottom: 390px;
   width: 58px;
   height: 72.68px;
@@ -414,7 +414,7 @@ nav a {
 }
 .slider-container {
   position: relative;
-  width: 60%;
+  width: 65%;
   margin: 100px 130px 0 0;
   overflow: hidden;
 }
@@ -437,12 +437,90 @@ nav a {
   color: #333;
   cursor: pointer;
   z-index: 10;
+}.up-to-50-off {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
 }
 
-.left-arrow {
-  left: 10px;
+.up-to {
+  flex: 1 1 calc(48% - 20px); 
+  background-color: #f5eeee;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-.right-arrow {
-  right: 10px;
+.Rectangl {
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.Rectangl h4 {
+  margin-left: 30%;
+}
+
+.popular,
+.coupons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular h3 {
+  color: #d12323d2;
+  font-size: 22px;
+  padding: 20px 140px 0 0;
+}
+
+.popular h4 {
+  color: var(--white);
+  position: relative;
+  right: 20%;
+  bottom: 70px;
+}
+
+.check-mark {
+  margin: 10px 0 0 5%;
+  width: 10px;
+  height: 10px;
+}
+
+.copy-coupon {
+  padding: 0 70px 0 0;
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.copy-coupon h4 {
+  width: 35%;
+  height: 30px;
+  background-color: #b300000f;
+  border-radius: 50px;
+}
+
+.mu2810 {
+  color: #1f66c9;
+  border: dotted 1px #1f66c9;
+}
+
+.amazon-discount-code-is-valid {
+  margin: 20px 55px 0 0;
+  font-size: 20px;
+}
+
+.activity-statistics {
+  margin-top: 30px;
+  color: var(--Boulder);
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .up-to {
+    flex: 1 1 calc(100% - 20px); 
+  }
 }
