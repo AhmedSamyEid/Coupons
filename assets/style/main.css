@@ -678,3 +678,35 @@ nav a {
   font-size: 20px;
   background-color: #007bff;
 }
+
+.check-out-all-the-news {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.check-out h2 {
+  font-size: 35px;
+}
+
+.check-out p {
+  margin-top: 20px;
+  color: var(--Black-Cow);
+}
+
+.img-furniture {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 40px;
+}
+
+.img-furniture img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+
