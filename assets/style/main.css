@@ -224,6 +224,7 @@ nav a {
     border: solid 1px #6f6d6ddd;
     width: 115.2%;
   }
+
   /* .offer-section ,.offer-container , .offer-image , .offer-image img {
     width: 10%;
   } */
@@ -531,4 +532,95 @@ nav a {
 .latest-fashion-shows-and-discover-fashion,
 .exclusive-offers {
   color: var(--white);
+}
+.most-popular-coupons {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.pink-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #7f005f;
+  border-radius: 50%;
+}
+
+.pink-text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7f005f;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.money,
+.coupon {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.discount-box {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.discount-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.discount-value {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.cash {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.watch-the-show {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
 }
