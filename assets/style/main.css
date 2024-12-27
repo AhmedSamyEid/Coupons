@@ -708,5 +708,51 @@ nav a {
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+.main-footer {
+  background: linear-gradient(to top, #e0f7fa, #ffffff);
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px; 
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
 
 
