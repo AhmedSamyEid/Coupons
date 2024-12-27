@@ -330,7 +330,7 @@ nav a {
   right: 10%;
 }
 .active-button {
-  margin-right: 7%;
+  margin-right: 2%;
 }
 .discount-button,
 .active-button {
@@ -355,7 +355,8 @@ nav a {
 }
 .check-mark {
   position: relative;
-  left: 80px;
+  left: 95px;
+  bottom: 5px;
 }
 .product-description h3 {
   width: 260px;
@@ -498,7 +499,7 @@ nav a {
 }
 
 .check-mark {
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
   width: 10px;
   height: 10px;
 }
